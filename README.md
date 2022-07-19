@@ -26,6 +26,5 @@ After calculating and plotting all the required data and tables. I've come up wi
 ![Image](Images/pie_chart.png)  
 
 
-   * Looking at the pie plots, we can observe that more male mice were used for the study as compared to female mice.  If we do more analysis based on the sex, we may be able to find the effect of potential treatments for squamous cell carcinoma (SCC).  
-
+   * Looking at the pie plots, we can observe that more male mice were used for the study as compared to female mice.  Further analysis based on the sex, may lead to finding the different effects of potential treatments for squamous cell carcinoma (SCC)on male and female mice.
 
