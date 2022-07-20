@@ -32,12 +32,15 @@ For this assignment, we are tasked to do the following:
 
 * Calculate quartiles, find outliers, and create a box plot. 
 
-   1) Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR and determine if there are any potential outliers across all four treatment regimens. We need to follow these substeps:
+   1) Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR and determine if there are any potential outliers across all four treatment regimens. We need to follow these substeps:  
      
-     a) Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame. 
-     b) Create a list that holds the treatment names, as well as a second, empty list to hold the tumor volume data. 
-     c) Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list. 
-     d) Determine outliers by using the upper and lower bounds, and then print the results.
+      a) Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame. 
+
+      b) Create a list that holds the treatment names, as well as a second, empty list to hold the tumor volume data. 
+
+      c) Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.  
+      
+      d) Determine outliers by using the upper and lower bounds, and then print the results.
 
    2) Using Matplotlib, generate a box plot of the final tumor volume for all four treatment regimens. Highlight any potential outliers in the plot by changing their color and style.  
 
